@@ -8,3 +8,6 @@ b = 2
 result = add(a, b)
 
 print("{} + {} = {}".format(a, b, result))
+
+if __ name__ == "__main__":
+    pass
