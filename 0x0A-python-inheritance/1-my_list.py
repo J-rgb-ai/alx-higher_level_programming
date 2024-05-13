@@ -1,21 +1,9 @@
 #!/usr/bin/python3
-"""
-class list that inherits from list
-"""
+"""MyList inherits from the list class"""
 
 
 class MyList(list):
-    """
-    Subclass of list
-    """
-    def __init__(self):
-        """
-        Initializace all instance of method
-        """
-        super().__init__
-
+    """A class that inherits from list"""
     def print_sorted(self):
-        """
-        method to print my list ascending sort
-        """
+        """prints a sorted list"""
         print(sorted(self))
