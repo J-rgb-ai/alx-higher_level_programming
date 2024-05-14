@@ -29,6 +29,7 @@ def main():
         exit(1)
 
     try:
+        # Validate arguments are integers
         a = int(sys.argv[1])
         operator = sys.argv[2]
         b = int(sys.argv[3])
